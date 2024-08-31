@@ -1,0 +1,19 @@
+Primeiro, vamos colocar o problema de forma figurativa, imaginando que são tres sala, a sala que possui os interruptores é a 
+esta no meio (só para termos uma imagem mental), e os interruptores estão dispostos verticalmente, temos então:
+salas: 1,2,3, (onde a sala 2 esta com os interruptores).
+interruptores: A, B, C.
+
+Para saber se o interruptor controla qual lâmpada, usando apenas duas idas até uma das salas, precisaremos:
+
+1-Ligue o primeiro interruptor (A) e deixe-o ligado por alguns minutos. Como ja estou na sala 2 ja poderei
+saber se a lampada foi acessa aqui, se não, irei até uma das outras duas salas (na sala 1, por exemplo) e então 
+concluirei se a lampada esta ou não acessa.
+
+2-Depois de saber se a lampada esta ou não ligada em uma das salas, 1 e 2 (supondo que não), já saberei que este primeiro 
+interruptor pertece a sala 3 (por eliminação).
+
+3-Volto para a sala 2 e aperto o interruptor B, já estando na sala dois ja saberei se a lampada da sala 2 ou 1 acenderá,
+tendo em mente que serão as duas unica restantes, visto que na nossa suposição, a lampada da sala 3 ja acendeu com o 
+interruptor A.
+
+Com isso, você consegue identificar qual interruptor controla cada lâmpada com apenas duas idas às salas.
